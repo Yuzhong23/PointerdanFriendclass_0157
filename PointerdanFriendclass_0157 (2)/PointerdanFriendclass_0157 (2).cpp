@@ -13,7 +13,8 @@ public:
 
 int main()
 {
-	mahasiswa* mhs = new mahasiswa{ 1 };
+	mahasiswa* mhs = new mahasiswa{ 1 }; //Pointer objek mahasiswa
 	mhs->showNim();
 	mhs->showNim();
+	delete mhs;
 }
