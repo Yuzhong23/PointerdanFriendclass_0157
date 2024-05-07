@@ -11,6 +11,8 @@ public:
 };
 
 int main() {
-    mahasiswa mhs{ 1 }; //objek mhs
-    mhs.showNim();   
+    mahasiswa mhs{ 1 }; // objek mhs
+    mhs.showNim(); 
+
+    mahasiswa& refMhs = mhs; 
 }
