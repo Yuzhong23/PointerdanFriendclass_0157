@@ -15,4 +15,5 @@ int main()
 {
 	mahasiswa* mhs = new mahasiswa{ 1 };
 	mhs->showNim();
+	mhs->showNim();
 }
