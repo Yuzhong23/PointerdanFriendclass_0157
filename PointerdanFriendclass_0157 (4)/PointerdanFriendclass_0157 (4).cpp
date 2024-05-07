@@ -16,6 +16,7 @@ void setNama(mahasiswa& a, string pNama)
 	a.nama = pNama;
 }
 
+
 int main()
 {
 	mahasiswa joko;
