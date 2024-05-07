@@ -29,5 +29,5 @@ int main()
 	manusia budi;
 	pelajar pbudi;
 	budi.showNilaipelajar(pbudi);
-	return 0;
+	return 0; 
 }
